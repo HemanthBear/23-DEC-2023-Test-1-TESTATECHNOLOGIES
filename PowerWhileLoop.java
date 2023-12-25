@@ -44,3 +44,59 @@ public class PowerWhileLoop {
         scanner.close();
     }
 }
+
+
+
+
+
+//--------------------------------------------- for-loop ----------------------------------------------------------------
+//public class PowerCalculationForLoop {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Enter the base number: ");
+//        double base = scanner.nextDouble();
+//
+//        System.out.print("Enter the exponent: ");
+//        double exponent = scanner.nextDouble();
+//
+//        double result = 1;
+//
+//        for (int i = 1; i <= exponent; i++) {
+//            result *= base;
+//        }
+//
+//        System.out.println("Result using loop: " + result);
+//        System.out.println("Result using Math.pow(): " + Math.pow(base, exponent));
+//
+//        scanner.close();
+//    }
+//}
+
+//-------------------------------------------------- do-while-loop  ------------------------------------------
+
+//public class PowerCalculationDoWhile {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Enter the base number: ");
+//        double base = scanner.nextDouble();
+//
+//        System.out.print("Enter the exponent: ");
+//        double exponent = scanner.nextDouble();
+//
+//        double result = 1;
+//        int i = 1;
+//
+//        do {
+//            result *= base;
+//            i++;
+//        } while (i <= exponent);
+//
+//        System.out.println("Result using loop: " + result);
+//        System.out.println("Result using Math.pow(): " + Math.pow(base, exponent));
+//
+//        scanner.close();
+//    }
+//}
+
